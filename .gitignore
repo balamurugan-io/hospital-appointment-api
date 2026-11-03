@@ -6,4 +6,7 @@ node_modules/
 .neon
 /generated/prisma
 dist/
-'@ | Set-Content .gitignore -Encoding utf8
+'@ | Set-Content .gitignore -Encoding utf8.agents/
+.claude/
+.windsurf/
+skills-lock.json
